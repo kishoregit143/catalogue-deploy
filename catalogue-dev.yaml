@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kishoregit143/argocd.git
+    repoURL: https://github.com/kishoregit143/catalogue-deploy.git
     targetRevision: main # Specifies the branch, tag, or commit to sync to
     path: .
     helm:
