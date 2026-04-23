@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: catalogue
+  name: catalogue-CC
   namespace: argocd # This must match the namespace where Argo CD is installed
 spec:
   project: default
