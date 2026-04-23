@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: catalogue-CC
+  name: catalogue
   namespace: argocd
 spec:
   generators:
@@ -26,7 +26,7 @@ spec:
         targetRevision: main
         path: .
         helm:
-          releaseName: catalogue-CC
+          releaseName: catalogue
           valueFiles:
             - values-{{env}}.yaml
       destination:

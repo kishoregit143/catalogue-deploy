@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: catalogue-CC
+  name: catalogue
   namespace: argocd # This must match the namespace where Argo CD is installed
 spec:
   project: default
@@ -10,7 +10,7 @@ spec:
     targetRevision: main # Specifies the branch, tag, or commit to sync to
     path: .
     helm:
-      releaseName: catalogue-CC
+      releaseName: catalogue
       valueFiles:
       - values-dev.yaml
   destination:
