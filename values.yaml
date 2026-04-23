@@ -1,5 +1,5 @@
 deployment:
-  imageRepo: 307223751858.dkr.ecr.us-east-1.amazonaws.com/roboshop/catalogue
+  imageRepo: kishorelinux/catalogue
   imageVersion: IMAGE_VERSION
 service:
   servicePort: 8080 # default value
