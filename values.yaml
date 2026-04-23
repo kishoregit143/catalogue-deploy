@@ -1,5 +1,5 @@
 deployment:
   imageRepo: kishorelinux/catalogue
-  imageVersion: IMAGE_VERSION
+  imageVersion: 1.0.0
 service:
   servicePort: 8080 # default value
